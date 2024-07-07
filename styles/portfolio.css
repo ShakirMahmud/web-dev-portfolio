@@ -8,6 +8,9 @@
     "wdth" 100;
 }
 /* shared style */
+.secondary_bg{
+    background-color: #FFF8F3;
+}
 .text_primary{
     color: #FD6E0A;
 }
@@ -26,11 +29,21 @@
     border-radius: 5px;
     border: none;
 }
+.section_title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section_description{
+    color: #757575;
+    font-size: 18px;
+}
 /* header style */
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    
 }
 /* Nav styles */
 nav{
@@ -38,6 +51,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 50px 200px;
+    margin-top: 0;
 }
 .nav_title{
     font-weight: 800;
@@ -79,4 +93,36 @@ nav li a{
 .banner_profile_pic{
     width: 584px;
     height: 676px;
+}
+/* main styles */
+main{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/* about styles */
+.about{
+
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.inner_section{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer_section{
+    display: flex;
+    justify-content: space-around;
+}
+section .item_title{
+    font-size: 20px;
+    color: #757575;
+}
+section .item_description{
+    font-weight: bold;
+    font-size: 20px;
+    color: #474747;
 }
